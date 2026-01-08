@@ -1,0 +1,57 @@
+Linux Basics & Command-Line Practice Guide
+This document provides a clear and structured guide to practicing basic Linux commands. The goal is to build
+confidence in using the Linux command line, which is essential for DevOps and server environments.
+Environment Used
+• Ubuntu Linux (Virtual Machine or Online Terminal)
+1. Basic Navigation Commands
+pwd        # Show current directory
+ls         # List files and directories
+ls -l      # List files with permissions
+cd /       # Move to root directory
+cd ~       # Move to home directory
+2. Directory Management
+mkdir devops
+cd devops
+mkdir linux_practice
+rmdir test_folder    # Removes empty directory only
+3. File Creation and Editing
+touch file1.txt
+nano file1.txt
+cat file1.txt
+Inside nano: write text, press CTRL+O to save, press Enter, then CTRL+X to exit.
+4. File Permissions and Ownership
+ls -l
+chmod 755 file1.txt
+chmod 644 file1.txt
+sudo chown $USER:$USER file1.txt
+5. System Resource Monitoring
+df -h
+free -h
+top
+Press 'q' to exit the top command.
+6. Package Management
+sudo apt update
+sudo apt install tree
+tree
+sudo apt remove tree
+7. Command Explanations
+pwd        : Shows the current working directory
+ls         : Lists files and directories
+cd         : Changes the directory
+mkdir      : Creates a new directory
+rmdir      : Deletes an empty directory
+touch      : Creates an empty file
+nano       : Edits files in the terminal
+cat        : Displays file content
+ls -l      : Shows file permissions and ownership
+chmod      : Changes file permissions
+chown      : Changes file ownership
+df -h      : Shows disk usage in readable format
+free -h    : Shows memory usage
+top        : Displays running processes
+apt update : Updates package list
+apt install: Installs packages
+apt remove : Removes packages
+Conclusion
+This practice guide provides a strong foundation in Linux command-line usage. Regular practice of these
+commands will help build confidence and prepare for real-world DevOps environments.
