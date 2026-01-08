@@ -2,7 +2,7 @@ Linux Basics & Command-Line Practice Guide
 This document provides a clear and structured guide to practicing basic Linux commands. The goal is to build
 confidence in using the Linux command line, which is essential for DevOps and server environments.
 Environment Used
-• Ubuntu Linux (Virtual Machine or Online Terminal)
+• I use Ubuntu Linux (AWS terminal)
 1. Basic Navigation Commands
 pwd        # Show current directory
 ls         # List files and directories
@@ -55,3 +55,4 @@ apt remove : Removes packages
 Conclusion
 This practice guide provides a strong foundation in Linux command-line usage. Regular practice of these
 commands will help build confidence and prepare for real-world DevOps environments.
+
